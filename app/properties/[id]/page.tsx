@@ -51,7 +51,7 @@ const PropertyDetailPage = async ({params}: { params: {id: string }}) => {
 
                     <hr />
 
-                    <p className="mt-6 text-lg">
+                    <p className="mt-6 text-lg text-justify">
                         {property.description}
                     </p>
                 </div>
